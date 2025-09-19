@@ -1,0 +1,101 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+body{
+    margin: 0;
+    height: 3800px;
+    background-image: url(504e823c-567b-4ac3-853e-bb48d10f36ec.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+li {
+    color: blueviolet;
+}
+
+#unique{
+    background-color: aqua;
+}
+
+h1, p {
+    font-family:Arial, Helvetica, sans-serif
+}
+
+div.article p {
+    color: crimson;
+    border: 1px solid;
+} 
+
+h1 {
+    text-align: center;
+}
+
+button{
+    background-color:red ;
+    color:white ;
+    padding:8px ;
+    border:1px solid: red ;
+    margin:6px ;
+    height:150px ;
+    width: 50% ;
+    border-radius:50% ;
+}
+
+button:hover{
+    background-color:yellow;
+}
+
+li:first-child{
+    color:yellow
+}
+
+li:last-child{
+    color:green
+}
+
+li:nth-child(2){
+    color:aqua
+}
+
+li:nth-child(even){
+    background-color:yellow
+}
+
+li::nth-child(odd){
+    background-color:orange
+}
+input:focus {
+    border:2px solid:red;
+}
+
+a:active{
+    color:purple;
+}
+
+a:hover {
+    color:green;
+    background-color:pink
+}
+
+a {
+    color: red
+}
+
+p {
+    letter-spacing:2px ;
+    word-spacing:6px ;
+}
+
+.my list {
+  color: blue;       
+  font-weight: bold ;
+}
+#specialty{
+    color: burlywood;
+    letter-spacing: 8px;
+
+}
+ 
